@@ -1,6 +1,6 @@
 # Download file Block for Kirby block editor
 
-![preview block file][https://raw.githubusercontent.com/batgithub/file-block/master/preview.jpg]
+![preview block file](https://github.com/batgithub/file-block/blob/master/preview.jpg?raw=true)
 
 ## How to dev ?
 **Install parcel globaly**</br>

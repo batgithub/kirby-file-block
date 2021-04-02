@@ -11,6 +11,9 @@
             "name": "baptiste lhopitault"
         }
     ],
+    "extra": {
+        "installer-name": "file-block"
+    },
     "keywords": [
         "kirby3",
         "kirby3-cms",

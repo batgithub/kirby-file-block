@@ -10,3 +10,5 @@
 **Start buil process**</br>
 `npm run build`
 
+## How to install
+`composer require baptiste/file-block`

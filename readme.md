@@ -13,6 +13,7 @@
 ## How to install
 `composer require baptiste/file-block`
 
+## How to use 
 
 ## Disclaimer
 

@@ -3,8 +3,6 @@
     "description": "Download file Block for Kirby CMS block editor",
     "type": "kirby-plugin",
     "license": "MIT",
-    "version": "1.0.0",
-    "minimum-stability": "stable",
     "config": {
         "optimize-autoloader": true
     },

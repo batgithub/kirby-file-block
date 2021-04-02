@@ -6,7 +6,7 @@
     "config": {
         "optimize-autoloader": true
     },
-    "minimum-stability": "dev",
+    "version": "0.1",
     "authors": [
         {
             "name": "baptiste lhopitault"

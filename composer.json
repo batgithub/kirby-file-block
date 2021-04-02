@@ -5,6 +5,9 @@
     "license": "MIT",
     "version": "1.0.0",
     "minimum-stability": "stable",
+    "config": {
+        "optimize-autoloader": true
+    },
     "authors": [
         {
             "name": "baptiste lhopitault"
@@ -17,5 +20,7 @@
         "custom-block",
         "block-file"
       ],
-    "require": {}
+      "require": {
+        "getkirby/composer-installer": "^1.1"
+    }
 }

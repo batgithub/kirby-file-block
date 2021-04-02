@@ -1,5 +1,7 @@
 # Download file Block for Kirby block editor
 
+![preview block file][https://raw.githubusercontent.com/batgithub/file-block/master/preview.jpg]
+
 ## How to dev ?
 **Install parcel globaly**</br>
 `npm install -g parcel-bundler`

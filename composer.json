@@ -1,0 +1,19 @@
+{
+    "name": "baptiste/file-block",
+    "description": "Download file Block for Kirby CMS block editor",
+    "type": "kirby-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "baptiste lhopitault"
+        }
+    ],
+    "keywords": [
+        "kirby3",
+        "kirby3-cms",
+        "kirby3-plugin",
+        "custom-block",
+        "block-file"
+      ],
+    "require": {}
+}

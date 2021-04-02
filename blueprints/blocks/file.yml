@@ -1,0 +1,10 @@
+name: Fichier à télécharger
+icon: download
+
+fields:
+  file:
+    label: Fichier
+    type: files
+    query: page.files.template('download-file')
+    uploads: download-file
+    multiple: false

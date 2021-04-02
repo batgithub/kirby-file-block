@@ -1,5 +1,5 @@
 name: Fichier à télécharger
-icon: download
+icon: attachment
 
 fields:
   file:

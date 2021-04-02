@@ -8,7 +8,7 @@
     >
        
         <div class="k-block-type-file-icon">
-            <k-icon type="download">
+            <k-icon type="attachment">
         </div>
         <div class="k-block-type-file-infos">
             <span>{{ file.filename }}</span>

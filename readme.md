@@ -1,8 +1,8 @@
 # Download file Block for Kirby block editor
 
-![preview block file](https://github.com/batgithub/file-block/blob/master/preview.jpg?raw=true)
+![preview block file](https://github.com/batgithub/file-block/blob/master/preview.png?raw=true)
 
-## How to dev ?
+## How to dev 
 **Install parcel globaly**</br>
 `npm install -g parcel-bundler`
 
@@ -12,10 +12,14 @@
 **Start buil process**</br>
 `npm run build`
 
-## How to install
+## How to install on Kirby CMS
 `composer require baptiste/file-block`
 
-## How to use 
+## How implement in the template
+By default [this HTML](https://github.com/batgithub/file-block/blob/master/snippets/blocks/file.php) is generated but You can customize it by creating a snippet in `/site/snippets/blocks`.
+
+[See the documentation](https://getkirby.com/docs/reference/panel/fields/blocks) of kirby for more details.
+
 
 ## Disclaimer
 

@@ -8,7 +8,7 @@ Kirby::plugin('baptiste/file-block', [
     'snippets' => [
         'blocks/file' => __DIR__ . '/snippets/blocks/file.php',
     ],
-    'tranlations' => [
+    'translations' => [
         'fr' => require 'languages/fr.php'
     ]
 ]);

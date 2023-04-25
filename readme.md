@@ -3,8 +3,8 @@
 ![preview block file](https://github.com/batgithub/file-block/blob/master/preview.png?raw=true)
 
 ## How to dev 
-**Install parcel globaly**</br>
-`npm install -g parcel-bundler`
+**Install dependencies**</br>
+`npm install`
 
 **Start watch process**</br>
 `npm run dev`

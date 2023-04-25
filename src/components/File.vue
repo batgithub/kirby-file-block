@@ -1,21 +1,31 @@
 <template>
-    <k-block-figure
-        :is-empty="!file.url"
-        empty-text="Aucun fichier téléchargé …"
+    <div
         @open="open"
+        @click="open"
         @update="update"
-        class="k-block-type-file-wrapper"
-    >
-       
+        v-bind:class="['k-block-type-file-container',{'k-block-type-file-container empty':!file.url}]"  
+        
+    >   
         <div class="k-block-type-file-icon">
-            <k-icon type="attachment">
+            <k-icon type="attachment"/>
         </div>
-        <div class="k-block-type-file-infos">
-            <span>{{ file.filename }}</span>
-            <span>{{ size }}</span>                
+
+        <div  v-if="file.url" class="k-block-type-file-infos">
+            <span v-if="!content.doctitle">{{ file.filename }}</span>
+            <span v-if="content.doctitle">{{ content.doctitle }}</span>
+            <span>{{ size }}</span>    
         </div>
-           
-    </k-block-figure>
+
+        <div v-else class="k-block-type-file-infos empty">
+            <span>Aucun fichier téléchargé …</span>
+            <span> Cliquez pour ajouter un fichier </span>    
+        
+        </div>            
+
+    </div>
+
+    
+
 
 </template>
 <script>
@@ -45,13 +55,13 @@
     }
 </script>
 <style lang="scss">
-    .k-block-figure-container {
+    .k-block-type-file-container {
         display: flex;
         align-items: center;
-        background: #F7F7F7;
+        background: var(--color-background);
         padding: 0.5rem .8rem;
     }
-    
+  
     .k-block-type-file-icon {
         margin-right: 1rem;
         svg {
@@ -68,4 +78,5 @@
             color: var(--color-text-light);
         }
     }
+   
 </style>

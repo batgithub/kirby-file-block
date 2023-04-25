@@ -1,9 +1,13 @@
-name: Fichier à télécharger
+name: block.name
 icon: attachment
 
 fields:
+  doctitle:
+    type: text
+    label: block.title.label
+
   file:
-    label: Fichier
+    label: block.file.label
     type: files
     query: page.files.template('download-file')
     uploads: download-file

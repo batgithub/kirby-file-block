@@ -6,23 +6,28 @@
     "config": {
         "optimize-autoloader": true
     },
-    "version": "0.1.1",
+    "version": "1.0.0",
     "authors": [
         {
-            "name": "baptiste lhopitault"
+            "name": "Baptiste lhopitault",
+            "homepage": "https://repliq.fr"
         }
     ],
     "extra": {
         "installer-name": "file-block"
     },
+    "support": {
+		"issues": "https://github.com/batgithub/kirby-file-block/issues",
+		"source": "https://github.com/batgithub/kirby-file-block"
+	},
     "keywords": [
         "kirby3",
         "kirby3-cms",
         "kirby3-plugin",
         "custom-block",
         "block-file"
-      ],
-      "require": {
+    ],
+    "require": {
         "getkirby/composer-installer": "^1.1"
     }
 }

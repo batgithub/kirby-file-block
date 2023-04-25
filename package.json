@@ -1,20 +1,16 @@
 {
   "name": "kirby-file-block",
   "description": "Download file Block for Kirby CMS block editor",
-  "version": "0.1.1",
-  "scripts": {
-    "dev": "parcel watch src/index.js --no-source-maps -d ./",
-    "build": "parcel build src/index.js --no-source-maps --experimental-scope-hoisting -d ./"
-  },
-  "posthtml": {
-    "recognizeSelfClosing": true
-  },
-  "devDependencies": {
-    "@vue/component-compiler-utils": "^3.2.0",
-    "vue-template-compiler": "^2.6.12"
-  },
-  "dependencies": {
-    "vue": "^2.6.12",
-    "vue-hot-reload-api": "^2.3.4"
-  }
+  "version": "1.0.0",
+  "postcss": {
+},
+
+"scripts": {
+    "dev": "kirbyup src/index.js --watch",
+    "serve": "kirbyup serve src/index.js",
+    "build": "kirbyup src/index.js"
+},
+"devDependencies": {
+    "kirbyup": "latest"
+}
 }
